@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random game</title>
+    <style>
+        .inner{
+           padding-top: 30px;
+            margin: 0 auto;
+            height: 200px;
+            margin-top: 90px;
+            border-radius: 9px 9px 9px 9px;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       background-color: rgb(108, 231, 233);
+        }
+        .inner h1{
+            color: coral;
+            text-shadow: 2px 2px 2px black;}
+            
+        fieldset{
+            border: 3px solid red;
+            border-radius: 9px 9px 9px 9px;
+        }
+        .in{
+            text-align: center;
+            background-color: rgb(209, 255, 100);
+            color: rgb(10, 194, 255);
+            border-radius: 16px 16px 16px 16px;
+            font-size: x-large;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow: 2px 2px 2px black;
+        }
+        body{
+            background-color: rgb(153, 0, 255);
+        }
+        .field{
+            background-color: gold;
+            border-radius: 9px 9px 9px 9px;
+            border: 3px dashed green;
+            padding: 2px 2px 2px 2px;
+            margin-top: 60px;
+        }
+        .heading{
+            text-align: center;
+            color: red;
+            font-weight: 600;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+       text-shadow: 3px 3px 3px black;
+       font-size: 70px;
+    }
+    p{
+        color: rgb(255, 13, 0);
+    }
+    #btn{
+        background-color: mediumpurple;
+        color: azure;
+        
+        
+    }
+    </style>
+</head>
+<body>
+    <h1 class="heading">Adarsh Developer</h1><div class="field">
+    <fieldset>
+    <div class="in">
+        <h1>lets play a  brain game</h1>
+    </div>
+    
+    <div class="inner">
+    <h1>Guess the number(1-100) and win the prizes</h1>
+    <input type="number"  name="num" id="nmbr" placeholder="enter a number" min="1" max="100"required>
+ <input type="submit" id="btn"value="submit">
+<p>Number of Guesses:<span id="nog"></span></p>
+<span id="rslt"></span>
+</div></fieldset></div>
+
+ <script src="./index.js"></script>
+</body>
+</html>
